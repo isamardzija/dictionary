@@ -141,6 +141,7 @@ main {
   padding-inline: var(--padding-300);
   font-weight: var(--fontweight-700);
   width: 100%;
+  min-height: 40px;
 }
 
 .search input:is(:active, :focus) {
