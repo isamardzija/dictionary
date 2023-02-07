@@ -13,7 +13,7 @@ function main() {
   });
   // FONT CHANGE
   const selectFont = document.querySelector("#selectFont");
-  selectFont.addEventListener("click", () => {
+  selectFont.addEventListener("change", () => {
     const allText = document.querySelectorAll("span, h1, h2, h3, p, select");
 
     if (selectFont.value == "mono") {
