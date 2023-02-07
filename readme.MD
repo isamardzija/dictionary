@@ -2,6 +2,10 @@
 
 Fully responsive English dictionary lookup application. Just enter the word you're interested in and you'll get back all the definitions of it.
 
+
+![Screen Shot 2023-02-07 at 21 41 38](https://user-images.githubusercontent.com/74252988/217361028-811591e0-55a5-46b5-832b-f957ad8c69e0.png)
+
+
 **Live Demo:** https://isamardzija.github.io/dictionary/
 
 ## How It's Made
