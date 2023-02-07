@@ -101,6 +101,10 @@ select:hover {
   cursor: pointer;
 }
 
+select:is(:hover, :focus, :active) {
+  outline: transparent;
+}
+
 #sansserif {
   font-family: var(--fontfamily-sansserif);
 }
@@ -130,7 +134,7 @@ main {
 .search {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-neutral-300);
+  background-color: var(--color-neutral-400);
   padding: var(--padding-300) var(--padding-400);
   border-radius: var(--border-radius-400);
 }
