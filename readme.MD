@@ -16,3 +16,8 @@ Created using HTML5, CSS and Vanilla JS. The application uses the API from https
 
 - **Dark Mode** - This is my first project that has an actual dark mode switch. Had lots of fun figuring it out.
 - **Font Switcher** - Another first for me. Fairly simple to implement, but a cool feature nonetheless. Had a bit of trouble making it work for both mobile and desktop devices.
+
+### Things To Improve
+
+ - Don't show the 'Synonyms' section if there are no synonyms found
+ - Limit the results only to first 5 with a button to load more (for better readability)
