@@ -59,7 +59,7 @@ function main() {
       const errorMessage = document.createElement("p");
       errorMessage.className = "errorMessage";
       errorMessage.textContent =
-        "Sorry pal, we couldn't find definitions for the word you were looking for. You can try the search again at later time or head to the web instead.";
+        "Sorry, we couldn't find definitions for the word you were looking for. You can try the search again at later time or head to the web instead.";
       results.appendChild(errorMessage);
     } else {
       // results header
@@ -75,6 +75,9 @@ function main() {
       const phonetic = document.createElement("span");
       h1.textContent = fResult.word;
       phonetic.textContent = fResult.phonetic;
+      if (moon.classList.contains("dark")) {
+        h1.classList.add("dark");
+      }
       headerText.append(h1, phonetic);
       // results body
       const resultsBody = document.createElement("section");
@@ -109,6 +112,9 @@ function main() {
           const lispan = document.createElement("span");
           lispan.className = meaning.partOfSpeech;
           lispan.textContent = dfn.definition;
+          if (moon.classList.contains("dark")) {
+            lispan.classList.add("dark");
+          }
           li.appendChild(lispan);
           ul.appendChild(li);
         });
